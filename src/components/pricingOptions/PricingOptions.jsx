@@ -6,8 +6,6 @@ const PricingOptions = ({ pricingOptionsPromise }) => {
   const result = use(pricingOptionsPromise);
   const pricingOptions = result.pricingOptions;
 
-  console.log(pricingOptions);
-
   return (
     <div className="container mx-auto">
       <h2 className="text-6xl my-10 text-center">Get our membership</h2>
